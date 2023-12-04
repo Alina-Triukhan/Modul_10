@@ -1,6 +1,5 @@
 import java.io.*;
 
-
 public class PhoneValidatorTest {
 //    public static void main(String[] args) {
 //        String phones = "987-123-4567\n" +    //true

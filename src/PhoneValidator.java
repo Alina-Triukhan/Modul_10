@@ -1,7 +1,6 @@
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-
 public class PhoneValidator {
     public static boolean isValidPhoneNumber(String phoneNumber) {
         // Регулярний вираз для перевірки формату телефонного номеру
@@ -11,4 +10,3 @@ public class PhoneValidator {
         return matcher.matches();
     }
 }
-
