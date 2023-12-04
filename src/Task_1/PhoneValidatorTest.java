@@ -1,7 +1,5 @@
 package Task_1;
 
-import Task_1.PhoneValidator;
-
 import java.io.*;
 
 public class PhoneValidatorTest {
