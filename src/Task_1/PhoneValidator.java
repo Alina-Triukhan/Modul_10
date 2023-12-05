@@ -2,7 +2,7 @@ package Task_1;
 
 import java.io.*;
 
-public class ValidNumber {
+public class PhoneValidator {
 //    public static void main(String[] args) {
 //        String phones = "987-123-4567\n" +    //true
 //                    "123 456 7890\n" +
