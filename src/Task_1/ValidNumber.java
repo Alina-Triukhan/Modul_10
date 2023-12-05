@@ -2,7 +2,7 @@ package Task_1;
 
 import java.io.*;
 
-public class PhoneValidatorTest {
+public class ValidNumber {
 //    public static void main(String[] args) {
 //        String phones = "987-123-4567\n" +    //true
 //                    "123 456 7890\n" +
@@ -26,12 +26,16 @@ public class PhoneValidatorTest {
             BufferedReader reader = new BufferedReader(new FileReader("file.txt"));
             String phones;
             while ((phones = reader.readLine()) != null) {
-                if (PhoneValidator.isValidPhoneNumber(phones)) {
+                if (isPhoneNumberValid(phones)) {
                     System.out.println(phones);
                 }
             }
         } catch (IOException e) {
             e.printStackTrace();
         }
+    }
+    public static boolean isPhoneNumberValid(String phoneNumber) {
+        String phoneRegex = "^\\((\\d{3})\\) \\d{3}-\\d{4}$|^\\d{3}-\\d{3}-\\d{4}$";
+        return phoneNumber.matches(phoneRegex);
     }
 }
