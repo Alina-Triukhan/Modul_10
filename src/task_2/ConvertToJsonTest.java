@@ -1,4 +1,4 @@
-package Task_2;
+package task_2;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 
