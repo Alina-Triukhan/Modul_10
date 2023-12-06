@@ -16,6 +16,7 @@ public class CountContains {
         for (Map.Entry<String, Integer> entry : entrySet) {
             System.out.println(entry.getKey() + " " + entry.getValue());
         }
+
 //        map.entrySet().stream().sorted(Map.Entry.<String, Integer>comparingByValue().reversed())
 //                .forEach(entry -> System.out.println(entry.getKey() + " " + entry.getValue()));
     }
